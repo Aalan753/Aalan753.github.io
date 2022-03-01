@@ -3,18 +3,18 @@
 /*
 *
 {
-	border: 1px solid brown;
+	border: 1px solid red;
 }
 */
 :root
 {
-	--old-western-brown: rgb(100,50,18);
+	--blue: rgb(41,37,247);
 }
 body
 {
 	text-align: center;
 	list-style-position: inside;
-	background-color:  var(--old-western-brown);
+	background-color:  var(--blue);
 }
 header
 {
@@ -31,7 +31,7 @@ header h1
 header h2
 {
 	font-size:  20pt;
-	color: var(--old-western-brown);
+	color: var(--blue);
 	font-variant: small-caps;
 }
 main h1
