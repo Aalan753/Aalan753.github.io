@@ -23,10 +23,10 @@ header
 	margin: 10px 100px;
 }
 {
-
-				font-family:'BebasNeue';
-				src:url('bacs200/css/fonts/BebasNeue.ttf') format('truetype');
-			    font-family:'BebasNeue';
+@font-face
+	font-family:'BebasNeue';
+	src:url('bacs200/css/fonts/BebasNeue.ttf') format('truetype');
+	font-family:'BebasNeue';
 }
 
 header h1
@@ -76,9 +76,4 @@ implication
 text-align: center;
 
 }
-@font-face
-			{
-				font-family:'BebasNeue';
-				src:url('bacs200/css/fonts/BebasNeue.ttf') format('truetype');
-			    font-family:'BebasNeue';
-			}
+
