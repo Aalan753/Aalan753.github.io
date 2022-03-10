@@ -8,20 +8,27 @@
 */
 :root
 {
-	--blue: rgb(41,37,247);
+	--gray: rgb(169,169,169);
 }
 body
 {
 	text-align: center;
 	list-style-position: inside;
-	background-color:  var(--blue);
+	background-color:  var(--gray);
 }
 header
 {
-	background-color:  darkblue;
+	background-color:  gray;
 	border: 5px dashed thick;
 	margin: 10px 100px;
 }
+{
+
+				font-family:'BebasNeue';
+				src:url('bacs200/css/fonts/BebasNeue.ttf') format('truetype');
+			    font-family:'BebasNeue';
+}
+
 header h1
 {
 	font-size:  60pt;
@@ -36,7 +43,7 @@ header h2
 }
 main h1
 {
-	font-size:  70pt;
+	font-size:  70vw;
 	font-family: 'Brush Script MT', cursive;
 	margin: 0;
 }
@@ -69,3 +76,9 @@ implication
 text-align: center;
 
 }
+@font-face
+			{
+				font-family:'BebasNeue';
+				src:url('bacs200/css/fonts/BebasNeue.ttf') format('truetype');
+			    font-family:'BebasNeue';
+			}
