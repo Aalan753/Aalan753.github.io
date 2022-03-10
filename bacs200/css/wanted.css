@@ -22,10 +22,13 @@ header
 	border: 5px dashed thick;
 	margin: 10px 100px;
 }
-{
 @font-face
-	font-family:'BebasNeue';
-	src:url('bacs200/css/fonts/BebasNeue.ttf') format('truetype');
+{
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	src:url('bacs200/css/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+*
+{
 	font-family:'BebasNeue';
 }
 
