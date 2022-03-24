@@ -24,8 +24,8 @@ header
 }
 @font-face
 {
-	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
-	src:url('bacs200/css/fonts/BebasNeue-Regular.ttf') format('truetype');
+	font-family:"alike-angular"'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	src:url('bacs200/css/fonts/Varela-Regular.ttf') format('truetype');
 }
 *
 {
