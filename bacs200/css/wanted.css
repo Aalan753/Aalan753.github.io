@@ -19,10 +19,11 @@ body
 }
 header
 {
-	background-color:  gray;
+	background-color: ghostwhite;
 	border: 5px dashed thick;
 	margin: 10px 100px;
 	font-family:'BebasNeue';
+	text-align: center;
 }
 @font-face
 			{
@@ -35,6 +36,7 @@ header h1
 	margin-top:  10px;
 	margin-bottom: 0;
 	font-family:'BebasNeue';
+	text-align: center;
 }
 header h2
 {
@@ -72,13 +74,8 @@ main ul
 {
 	display:  table;
 	margin: 0 auto;
-	text-align:  left;
+	text-align:  center;
 	padding-left: 2px;
-}
-#wantedlist
-{
-	font-size: 25pt;
-	float:  right;
 }
 implication
 
